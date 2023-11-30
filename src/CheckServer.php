@@ -21,6 +21,7 @@ class CheckServer
         switch ($type) {
             case 'mysql':
                 $this->checkServer = new TargetType\Mysql();
+                break;
             default:
                 throw new ServerErrorException('type error');
         }
@@ -43,11 +44,17 @@ class CheckServer
         $this->checkServer->setSocketSendTimeout($socketSendTimeout);
     }
 
+    /**
+     * @param string $host
+     */
     public function setHost($host)
     {
         $this->checkServer->setHost($host);
     }
 
+    /**
+     * @param string $port
+     */
     public function setPort($port)
     {
         $this->checkServer->setPort($port);
