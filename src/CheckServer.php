@@ -2,8 +2,6 @@
 
 namespace Amazingzl\CheckServer;
 
-use Exception;
-
 class CheckServer
 {
 
