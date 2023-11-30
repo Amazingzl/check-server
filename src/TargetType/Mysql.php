@@ -1,10 +1,4 @@
 <?php
-/**
- *
- * User:wuzhenlong
- * Date:2023/11/30
- * Email: <wuzhenlong@onemt.com.cn>
- */
 
 namespace Amazingzl\CheckServer\TargetType;
 
