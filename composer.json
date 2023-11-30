@@ -1,0 +1,19 @@
+{
+    "name": "amazingzl/check-server",
+    "description": "check server is mysql? use socket time out check",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amazingzl\\CheckServer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amazing zl",
+            "email": "amazingzllol@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
